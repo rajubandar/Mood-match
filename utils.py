@@ -1,7 +1,7 @@
 import requests
 
 
-GEMINI_API_KEY = "AIzaSyCdq9QuoDbEDMlWcazPUhADqoPAgmBaiHQ"
+GEMINI_API_KEY = "your own api key"
 
 def query_gemini(prompt):
     """
@@ -36,5 +36,6 @@ def query_gemini(prompt):
     
     except Exception as e:
         return f"❌ Exception occurred: {str(e)}"
+
 
 
