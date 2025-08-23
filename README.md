@@ -17,6 +17,18 @@ MoodMatch is a **Streamlit-based GenAI app** that detects your mood through **fu
 
 ## 🛠️ Tech Stack  
 
-- **Frontend & UI**: [Streamlit](https://streamlit.io/)  
-- **Backend / AI Model**: [Gemini 1.5 Flash (Google AI)](https://ai.google.dev/)  
-- **Language**: Python 3.10+  
+- **Frontend & UI**: Streamlit
+- **Backend / AI Model**: Gemini 1.5 Flash (Google AI)
+- **Language**: Python 3.13+  
+
+---
+
+## This project is live on **Streamlit Cloud** 👌 <br>
+#### [CLICK](https://mood-match.streamlit.app) the link to visit the APP
+---
+
+## Stepts of using the App 🔥
+
+1. Select the Category of content you want to generate.
+2. Answer the three quetions listed below by selecting from the given options.
+3. Click the `Generate Response` button and see the magic.
