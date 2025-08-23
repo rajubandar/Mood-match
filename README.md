@@ -24,7 +24,10 @@ MoodMatch is a **Streamlit-based GenAI app** that detects your mood through **fu
 ---
 
 ## This project is live on **Streamlit Cloud** 👌 <br>
-#### [CLICK](https://mood-match.streamlit.app) the link to visit the APP
+<!-- #### [CLICK](https://mood-match.streamlit.app) the link to visit the APP -->
+#### <a href="https://mood-match.streamlit.app" target="_blank">CLICK</a> the link to visit the APP
+
+
 ---
 
 ## Stepts of using the App 🔥
