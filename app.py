@@ -2,6 +2,8 @@ import streamlit as st
 from utils import query_gemini
 import re
 
+API = st.secrets["api_key"]
+
 def clean_html(raw_text):
     clean = re.compile('<.*?>')
     return re.sub(clean, '', raw_text)
@@ -71,7 +73,7 @@ if st.button("✨Generate response✨"):
     mood_summary = f"Day: {q1}. Current desire: {q2}. Emotional vibe: {q3}."
     prompt = f"Generate a {content_type.lower()} that reflects the following mood, without using HTML: {mood_summary}"
     with st.spinner("Loading the response",show_time=True):
-        result = query_gemini(prompt)
+        result = query_gemini(prompt,API)
         result = clean_html(result)
 
 
@@ -93,3 +95,4 @@ if st.button("✨Generate response✨"):
             unsafe_allow_html=True
     )
     # st.markdown("</div>", unsafe_allow_html=True)
+
