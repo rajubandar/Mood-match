@@ -1,9 +1,9 @@
 import requests
 
 
-GEMINI_API_KEY = "your own api key"
+#GEMINI_API_KEY = "your own api key"
 
-def query_gemini(prompt):
+def query_gemini(prompt,GEMINI_API_KEY):
     """
     Sends a prompt to Gemini 1.5 Flash and returns the generated text.
     """
@@ -36,6 +36,7 @@ def query_gemini(prompt):
     
     except Exception as e:
         return f"❌ Exception occurred: {str(e)}"
+
 
 
 
